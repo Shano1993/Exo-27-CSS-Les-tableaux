@@ -1,0 +1,46 @@
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+tr {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+    height: 20px;
+    width: 40px;
+}
+
+#table-one {
+    caption-side: top;
+    border-collapse: separate;
+    empty-cells: hide;
+}
+
+#table-two {
+    caption-side: bottom;
+    border-collapse: separate;
+    empty-cells: show;
+}
+
+#table-three {
+    caption-side: top;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+#table-four {
+    caption-side: bottom;
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+
+.imp {
+    background-color: red;
+}
+
+.pair {
+    text-transform: capitalize;
+}
